@@ -8,7 +8,7 @@ public class ArrayOperationsNumZeroTest
    @Test
    public void testNumZeroEmptyArray() 
    {
-      int x[] = {};     // zero-sized array
+      int[] x = {};     // zero-sized array
       int n = ArrayOperations.numZero(x);
       assertEquals("0 zeros", 0, n);
    }
